@@ -1,0 +1,2 @@
+main.c:5:5:main	8	static
+main.c:17:6:systickDelay_ms	24	static
