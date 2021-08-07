@@ -1,5 +1,5 @@
 #include "stm32f4xx.h"
-// LED: PD15
+// LED: PD15/PD14
 //Button: PA0
 
 
