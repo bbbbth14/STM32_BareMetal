@@ -11,7 +11,7 @@ int main(void) {
     TIM2->PSC = 1600 - 1;
     TIM2->ARR = 10000 - 1;
     TIM2->CNT = 0; // Clear timer counter
-    TIM2->CR1 = 1; // Counter enable
+    TIM2->CR1 = 1; // TIM2 enable
 
 
     while (1) {
