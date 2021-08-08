@@ -13,7 +13,7 @@ int main(void) {
 
     RCC->AHB1ENR |= 8;	         // Port D
     RCC->AHB1ENR |= 1;           // Port A
-    RCC->APB2ENR |= 0x4000;      // Enable SYSCFG clock, System configuration controller clock
+    RCC->APB2ENR |= 0x4000;      // Enable SYSCFG clock, System configuration controller clock to use External interrupt line 0
 
     //configure PD15 for LED
     GPIOD->MODER |=  0x40000000;
